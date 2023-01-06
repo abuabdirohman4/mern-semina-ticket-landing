@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-css-tags */
 import '../styles/globals.css';
 import '../styles/main.css';
-import Head from 'next/head';
+// import Head from 'next/head';
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
+      {/* <Head>
         <link
           href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css'
           rel='stylesheet'
@@ -26,7 +26,7 @@ function MyApp({ Component, pageProps }) {
           integrity='sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13'
           crossOrigin='anonymous'
         ></script>
-      </Head>
+      </Head> */}
       <Component {...pageProps} />
       <ToastContainer position='top-right' />
     </>
