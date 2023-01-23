@@ -2,7 +2,7 @@ import Link from "next/link";
 import { getData } from "../utils/fetchData";
 
 export default function Home({ data }) {
-  console.log("data", data);
+  // console.log("data", data);
   return (
     <div>
       <ul>

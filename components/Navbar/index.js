@@ -15,7 +15,7 @@ export default function Navbar() {
   });
 
   const handleLogout = () => {
-    console.log('click');
+    // console.log('click');
     Cookies.remove('token');
     router.push('/');
   };
